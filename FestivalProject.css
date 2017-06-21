@@ -395,3 +395,110 @@ footer {
   text-decoration: none;
   font-size: 26px;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Top ul  {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+#Top {
+  background-color: rgba(200,200,200,0.3);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+#Top li img {
+  height: 3em;
+}
+
+#Bottom ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+#Bottom  {
+  background-color: rgba(200,200,200,0.3);
+  width: 100%;
+  position: absolute;
+  top: 27em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+#Bottom ul {
+
+
+}
+
+.picture_title > img {
+  height: 30em;
+  width: 100%;
+}
+
+#Bienvenue {
+  background-color: rgba(200,200,200,0.3);
+  width: 100%;
+  position: absolute;
+  top: 10em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+   font-weight: lighter;
+   font-style: lighter;
+   color: rgba(255,000,000, 0.7);
+}
+
+h3 {
+  font-family: 'Lobster Two', cursive;
+  font-weight: bolder;
+  font-style: bolder;
+  color: rgba(255,000,000, 0.7);
+}
+
+#Top {
+  font-family: 'Lobster Two', cursive;
+  color: rgba(000,000,255, 0.7);
+}
+
+#Top a {
+  text-decoration: none;
+  color: rgba(255,000,000, 0.7);
+}
+
+#Top a:hover {
+  color: rgba(000,000,255, 0.7);
+}
+
+#Bottom a {
+  text-decoration: none;
+  color: rgba(255,000,000, 0.7);
+}
+
+#Bottom a:hover {
+  color: rgba(000,000,255, 0.7);
+
+}
+
+#Bottom {
+  font-family: 'Lobster Two', cursive;
+  color: rgba(255,000,000, 0.7);
+}
