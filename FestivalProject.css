@@ -256,6 +256,62 @@ transition: 1s;
 /*media queries*/
 @media screen and (max-width:800px)
 
+
+/*CSS TCHENY*/
+#aboutImg
+{
+  display: flex;
+  justify-content: center;
+}
+.story
+{
+  width: 100%;
+  height: 600px;
+  background-color: rgba(245, 245, 245, 0.55);
+}
+.title
+{
+  text-align: center;
+}
+.title h1
+{
+  margin: 40px;
+}
+hr
+{
+  margin: auto;
+  border: none;
+   width: 200px;
+   height: 1px;
+   background-color: rgba(168, 168, 168, 0.53);
+}
+.date
+{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+
+}
+.articles
+{
+  text-align: center;
+}
+.decouvre img
+{
+  width: 350px;
+  box-shadow: 2px 2px 2px rgba(187, 185, 184, 0.61);box-shadow: 0px 5px 25px 0px rgba(134, 134, 134, 0.43);
+  border: 1px solid rgba(135, 140, 153, 0.28);
+  border-radius: 20px;
+  background-color: #fff;
+}
+.separator
+{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/*END CSS TCHENY*/
+
 /* FOOTER FAIT PAR FAÏSSAL */
 
 footer {
